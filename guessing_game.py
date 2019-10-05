@@ -10,7 +10,6 @@ correct_answer = random.randint(1, 10)
 
 while number_of_guesses > 0:
     # User guesses the number
-
     user_guess = input("Guess my number: ")
     user_guess = int(user_guess)
 
